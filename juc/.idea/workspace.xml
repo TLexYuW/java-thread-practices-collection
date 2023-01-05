@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f7802d16-f371-46d8-865d-1e9d4d6f888d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/thread/Example_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/thread/Example_10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/thread/Example_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/thread/Example_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/thread/Example_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/thread/Example_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/thread/Example_6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/thread/Example_7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/thread/Example_8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/thread/Example_9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/virtual/VirtualThreadExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/virtual/VirtualThreadExample_2.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JuLc4bCElLdB4Gi3jg8YlU8yUC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/CodeWorkSpaces/Intellij-Workspace/Concurrency & Multithreading/juc",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.14166667",
+    "project.structure.side.proportion": "0.30568013",
+    "settings.editor.selected.configurable": "editing.templates"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lex.practice.virtual" />
+      <recent name="com.lex.practice.thread" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.VirtualThreadExample">
+    <configuration name="Example_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lex.practice.thread.Example_10" />
+      <module name="juc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lex.practice.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Example_8 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lex.practice.thread.Example_8" />
+      <module name="juc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lex.practice.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Example_9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lex.practice.thread.Example_9" />
+      <module name="juc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lex.practice.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VirtualThreadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lex.practice.virtual.VirtualThreadExample" />
+      <module name="juc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lex.practice.virtual.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VirtualThreadExample_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lex.practice.virtual.VirtualThreadExample_2" />
+      <module name="juc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lex.practice.virtual.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.VirtualThreadExample" />
+        <item itemvalue="Application.VirtualThreadExample_2" />
+        <item itemvalue="Application.Example_10" />
+        <item itemvalue="Application.Example_9" />
+        <item itemvalue="Application.Example_8 (4)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7802d16-f371-46d8-865d-1e9d4d6f888d" name="Changes" comment="" />
+      <created>1672923098831</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672923098831</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lex/practice/thread/Example_8.java</url>
+          <line>8</line>
+          <properties class="com.lex.practice.thread.Example_8" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
