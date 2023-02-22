@@ -5,24 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7802d16-f371-46d8-865d-1e9d4d6f888d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/thread/Example_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/thread/Example_10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/thread/Example_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/thread/Example_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/thread/Example_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/thread/Example_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/thread/Example_6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/thread/Example_7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/thread/Example_8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/thread/Example_9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/virtual/VirtualThreadExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/virtual/VirtualThreadExample_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/memory/MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/memory/SeparateObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/memory/SharedObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/raceconditions/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/raceconditions/RaceConditionsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/sync/MixedSynchronizedExchanger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/sync/MultipleMonitorObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/sync/Reentrance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/sync/SharedMonitorObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/sync/SharedMonitorObjectsMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/sync/StaticSynchronizedExchanger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/sync/SyncCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/sync/SyncCounterMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/sync/SynchronizedExchanger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/sync/SynchronizedExchangerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/sync/SynchronizedLambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/threadlocal/InheritableThreadLocalBasicExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/threadlocal/ThreadLocalBasicExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/threadlocal/ThreadLocalInitialValueExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/threadlocal/ThreadLocalLazyInitExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/threadlocal/ThreadLocalRemoveExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/virtual/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/virtual/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/virtual/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/volatilekeyword/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/volatilekeyword/Exchanger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/volatilekeyword/Exchanger2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/volatilekeyword/Values.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lex/practice/virtual/VirtualThreadExample_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/virtual/VirtualThreadExample_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +54,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -48,31 +65,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/CodeWorkSpaces/Intellij-Workspace/Concurrency & Multithreading/juc",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.14166667",
-    "project.structure.side.proportion": "0.30568013",
-    "settings.editor.selected.configurable": "editing.templates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CodeWorkSpaces/Intellij-Workspace/Concurrency &amp; Multithreading/juc&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.14166667&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.30568013&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lex.practice.threadlocal" />
+      <recent name="com.lex.practice.sync" />
       <recent name="com.lex.practice.virtual" />
       <recent name="com.lex.practice.thread" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VirtualThreadExample">
-    <configuration name="Example_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lex.practice.thread.Example_10" />
+  <component name="RunManager" selected="Application.InheritableThreadLocalBasicExample">
+    <configuration name="InheritableThreadLocalBasicExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lex.practice.threadlocal.InheritableThreadLocalBasicExample" />
       <module name="juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lex.practice.thread.*" />
+          <option name="PATTERN" value="com.lex.practice.threadlocal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example_8 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lex.practice.thread.Example_8" />
+    <configuration name="ThreadLocalBasicExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lex.practice.threadlocal.ThreadLocalBasicExample" />
       <module name="juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lex.practice.thread.*" />
+          <option name="PATTERN" value="com.lex.practice.threadlocal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example_9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lex.practice.thread.Example_9" />
+    <configuration name="ThreadLocalInitialValueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lex.practice.threadlocal.ThreadLocalInitialValueExample" />
       <module name="juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lex.practice.thread.*" />
+          <option name="PATTERN" value="com.lex.practice.threadlocal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VirtualThreadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lex.practice.virtual.VirtualThreadExample" />
+    <configuration name="ThreadLocalLazyInitExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lex.practice.threadlocal.ThreadLocalLazyInitExample" />
       <module name="juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lex.practice.virtual.*" />
+          <option name="PATTERN" value="com.lex.practice.threadlocal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VirtualThreadExample_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lex.practice.virtual.VirtualThreadExample_2" />
+    <configuration name="ThreadLocalRemoveExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lex.practice.threadlocal.ThreadLocalRemoveExample" />
       <module name="juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lex.practice.virtual.*" />
+          <option name="PATTERN" value="com.lex.practice.threadlocal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.VirtualThreadExample" />
-        <item itemvalue="Application.VirtualThreadExample_2" />
-        <item itemvalue="Application.Example_10" />
-        <item itemvalue="Application.Example_9" />
-        <item itemvalue="Application.Example_8 (4)" />
+        <item itemvalue="Application.InheritableThreadLocalBasicExample" />
+        <item itemvalue="Application.ThreadLocalLazyInitExample" />
+        <item itemvalue="Application.ThreadLocalInitialValueExample" />
+        <item itemvalue="Application.ThreadLocalRemoveExample" />
+        <item itemvalue="Application.ThreadLocalBasicExample" />
       </list>
     </recent_temporary>
   </component>
@@ -150,8 +176,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672923098831</updated>
+      <workItem from="1676788223104" duration="7975000" />
+      <workItem from="1677080041942" duration="1013000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -164,19 +195,9 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lex/practice/thread/Example_8.java</url>
-          <line>8</line>
-          <properties class="com.lex.practice.thread.Example_8" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
 </project>
