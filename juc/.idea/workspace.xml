@@ -5,41 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7802d16-f371-46d8-865d-1e9d4d6f888d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/memory/MyRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/memory/SeparateObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/memory/SharedObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/raceconditions/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/raceconditions/RaceConditionsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/sync/MixedSynchronizedExchanger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/sync/MultipleMonitorObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/sync/Reentrance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/sync/SharedMonitorObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/sync/SharedMonitorObjectsMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/sync/StaticSynchronizedExchanger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/sync/SyncCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/sync/SyncCounterMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/sync/SynchronizedExchanger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/sync/SynchronizedExchangerMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/sync/SynchronizedLambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/threadlocal/InheritableThreadLocalBasicExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/threadlocal/ThreadLocalBasicExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/threadlocal/ThreadLocalInitialValueExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/threadlocal/ThreadLocalLazyInitExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/threadlocal/ThreadLocalRemoveExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/virtual/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/virtual/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/virtual/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/volatilekeyword/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/volatilekeyword/Exchanger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/volatilekeyword/Exchanger2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/volatilekeyword/Values.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/pool/PoolThreadRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/pool/ThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/pool/ThreadPoolMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/raceconditions/CounterSynchronized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/raceconditions/RaceConditionsExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/raceconditions/RaceConditionsExample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/raceconditions/RaceConditionsExample4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/raceconditions/RaceConditionsExample5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/raceconditions/RaceConditionsExample6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lex/practice/virtual/VirtualThreadExample_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/virtual/VirtualThreadExample_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lex/practice/raceconditions/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/raceconditions/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lex/practice/raceconditions/RaceConditionsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/raceconditions/RaceConditionsExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,40 +44,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/CodeWorkSpaces/Intellij-Workspace/Concurrency &amp; Multithreading/juc&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.14166667&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.30568013&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.preview.features.used": "true",
+    "last_opened_file_path": "D:/CodeWorkSpaces/SortedWorkspace/Java-Project/Concurrency & Multithreading/juc",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.14166667",
+    "project.structure.side.proportion": "0.30568013",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lex.practice.raceconditions" />
       <recent name="com.lex.practice.threadlocal" />
       <recent name="com.lex.practice.sync" />
       <recent name="com.lex.practice.virtual" />
       <recent name="com.lex.practice.thread" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InheritableThreadLocalBasicExample">
-    <configuration name="InheritableThreadLocalBasicExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lex.practice.threadlocal.InheritableThreadLocalBasicExample" />
+  <component name="RunManager" selected="Application.ThreadPoolMain">
+    <configuration name="RaceConditionsExample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lex.practice.raceconditions.RaceConditionsExample3" />
       <module name="juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lex.practice.threadlocal.*" />
+          <option name="PATTERN" value="com.lex.practice.raceconditions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadLocalBasicExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lex.practice.threadlocal.ThreadLocalBasicExample" />
+    <configuration name="RaceConditionsExample4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lex.practice.raceconditions.RaceConditionsExample4" />
       <module name="juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lex.practice.threadlocal.*" />
+          <option name="PATTERN" value="com.lex.practice.raceconditions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadLocalInitialValueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lex.practice.threadlocal.ThreadLocalInitialValueExample" />
+    <configuration name="RaceConditionsExample5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lex.practice.raceconditions.RaceConditionsExample5" />
       <module name="juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lex.practice.threadlocal.*" />
+          <option name="PATTERN" value="com.lex.practice.raceconditions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadLocalLazyInitExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lex.practice.threadlocal.ThreadLocalLazyInitExample" />
+    <configuration name="RaceConditionsExample6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lex.practice.raceconditions.RaceConditionsExample6" />
       <module name="juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lex.practice.threadlocal.*" />
+          <option name="PATTERN" value="com.lex.practice.raceconditions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadLocalRemoveExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lex.practice.threadlocal.ThreadLocalRemoveExample" />
+    <configuration name="ThreadPoolMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lex.practice.pool.ThreadPoolMain" />
       <module name="juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lex.practice.threadlocal.*" />
+          <option name="PATTERN" value="com.lex.practice.pool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InheritableThreadLocalBasicExample" />
-        <item itemvalue="Application.ThreadLocalLazyInitExample" />
-        <item itemvalue="Application.ThreadLocalInitialValueExample" />
-        <item itemvalue="Application.ThreadLocalRemoveExample" />
-        <item itemvalue="Application.ThreadLocalBasicExample" />
+        <item itemvalue="Application.ThreadPoolMain" />
+        <item itemvalue="Application.RaceConditionsExample6" />
+        <item itemvalue="Application.RaceConditionsExample5" />
+        <item itemvalue="Application.RaceConditionsExample4" />
+        <item itemvalue="Application.RaceConditionsExample3" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +157,12 @@
       <option name="presentableId" value="Default" />
       <updated>1672923098831</updated>
       <workItem from="1676788223104" duration="7975000" />
-      <workItem from="1677080041942" duration="1013000" />
+      <workItem from="1677080041942" duration="1431000" />
+      <workItem from="1677150933293" duration="8085000" />
+      <workItem from="1678102456211" duration="631000" />
+      <workItem from="1678107032105" duration="1199000" />
+      <workItem from="1678189044635" duration="1198000" />
+      <workItem from="1678708907565" duration="4665000" />
     </task>
     <servers />
   </component>
@@ -199,5 +184,84 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lex/practice/pool/ThreadPoolMain.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lex/practice/pool/ThreadPoolMain.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lex/practice/pool/PoolThreadRunnable.java</url>
+          <line>17</line>
+          <properties class="com.lex.practice.pool.PoolThreadRunnable" method="run">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lex/practice/pool/PoolThreadRunnable.java</url>
+          <line>30</line>
+          <properties class="com.lex.practice.pool.PoolThreadRunnable" method="doStop">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lex/practice/pool/PoolThreadRunnable.java</url>
+          <line>36</line>
+          <properties class="com.lex.practice.pool.PoolThreadRunnable" method="isStopped">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lex/practice/pool/ThreadPool.java</url>
+          <line>16</line>
+          <properties class="com.lex.practice.pool.ThreadPool" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lex/practice/pool/ThreadPool.java</url>
+          <line>27</line>
+          <properties class="com.lex.practice.pool.ThreadPool" method="execute">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lex/practice/pool/ThreadPool.java</url>
+          <line>32</line>
+          <properties class="com.lex.practice.pool.ThreadPool" method="stop">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lex/practice/pool/ThreadPool.java</url>
+          <line>39</line>
+          <properties class="com.lex.practice.pool.ThreadPool" method="waitUntilAllTasksFinished">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,4 +1,4 @@
 # Ref
 https://www.youtube.com/@JakobJenkov <br>
 
-*Learning Java Thread*
+*Learning Java JUC*

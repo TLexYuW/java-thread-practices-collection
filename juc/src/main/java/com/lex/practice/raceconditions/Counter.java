@@ -16,7 +16,4 @@ public class Counter {
         return this.count;
     }
 
-    public void add(long value){
-        this.count = this.count + value;
-    }
 }
