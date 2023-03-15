@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7802d16-f371-46d8-865d-1e9d4d6f888d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/lock/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/lock/CounterLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/lock/CounterSynchronized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/lock/LockExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/lock/LockExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/executorservice/ExecutorServiceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/executorservice/ExecutorServiceExample1_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/executorservice/ExecutorServiceExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/executorservice/ExecutorServiceExample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/executorservice/ExecutorServiceExample4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/executorservice/ExecutorServiceExample5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/executorservice/ExecutorServiceExample6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,41 +40,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "ignore.preview.features.used": "true",
-    "last_opened_file_path": "D:/CodeWorkSpaces/SortedWorkspace/Java-Project/Java-Fundamental-Practice-Collections/java-bro-code-tutorial/java-tutorial",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.14166667",
-    "project.structure.side.proportion": "0.30568013",
-    "settings.editor.selected.configurable": "editing.templates",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CodeWorkSpaces/SortedWorkspace/Java-Project/Java-Fundamental-Practice-Collections/java-bro-code-tutorial/java-tutorial&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.14166667&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.30568013&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lex.practice.executorservice" />
       <recent name="com.lex.practice.raceconditions" />
       <recent name="com.lex.practice.threadlocal" />
       <recent name="com.lex.practice.sync" />
       <recent name="com.lex.practice.virtual" />
-      <recent name="com.lex.practice.thread" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LockExamples">
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lex.practice.lock.Calculator" />
+  <component name="RunManager" selected="Application.ExecutorServiceExample6">
+    <configuration name="ExecutorServiceExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lex.practice.executorservice.ExecutorServiceExample2" />
       <module name="juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lex.practice.lock.*" />
+          <option name="PATTERN" value="com.lex.practice.executorservice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lex.practice.lock.LockExample" />
+    <configuration name="ExecutorServiceExample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lex.practice.executorservice.ExecutorServiceExample3" />
       <module name="juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lex.practice.lock.*" />
+          <option name="PATTERN" value="com.lex.practice.executorservice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lex.practice.lock.LockExamples" />
+    <configuration name="ExecutorServiceExample4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lex.practice.executorservice.ExecutorServiceExample4" />
       <module name="juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lex.practice.lock.*" />
+          <option name="PATTERN" value="com.lex.practice.executorservice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RaceConditionsExample6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lex.practice.raceconditions.RaceConditionsExample6" />
+    <configuration name="ExecutorServiceExample5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lex.practice.executorservice.ExecutorServiceExample5" />
       <module name="juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lex.practice.raceconditions.*" />
+          <option name="PATTERN" value="com.lex.practice.executorservice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPoolMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lex.practice.pool.ThreadPoolMain" />
+    <configuration name="ExecutorServiceExample6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lex.practice.executorservice.ExecutorServiceExample6" />
       <module name="juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lex.practice.pool.*" />
+          <option name="PATTERN" value="com.lex.practice.executorservice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LockExamples" />
-        <item itemvalue="Application.Calculator" />
-        <item itemvalue="Application.LockExample" />
-        <item itemvalue="Application.ThreadPoolMain" />
-        <item itemvalue="Application.RaceConditionsExample6" />
+        <item itemvalue="Application.ExecutorServiceExample6" />
+        <item itemvalue="Application.ExecutorServiceExample5" />
+        <item itemvalue="Application.ExecutorServiceExample4" />
+        <item itemvalue="Application.ExecutorServiceExample3" />
+        <item itemvalue="Application.ExecutorServiceExample2" />
       </list>
     </recent_temporary>
   </component>
@@ -156,6 +160,7 @@
       <workItem from="1678189044635" duration="1198000" />
       <workItem from="1678708907565" duration="4665000" />
       <workItem from="1678793882165" duration="8197000" />
+      <workItem from="1678879231821" duration="5371000" />
     </task>
     <servers />
   </component>

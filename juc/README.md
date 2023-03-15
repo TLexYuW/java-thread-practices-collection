@@ -1,4 +1,3 @@
 # Ref
-https://www.youtube.com/@JakobJenkov <br>
-
-*Learning Java JUC*
+- *Learning Java JUC*
+  - https://www.youtube.com/@JakobJenkov
