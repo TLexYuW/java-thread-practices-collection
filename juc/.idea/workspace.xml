@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7802d16-f371-46d8-865d-1e9d4d6f888d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/deadlock/DeadlockExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/deadlock/Runnable1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/deadlock/Runnable2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/deadlock/RunnableSync1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/practice/deadlock/RunnableSync2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,20 +57,20 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lex.practice.deadlock" />
       <recent name="com.lex.practice.executorservice" />
       <recent name="com.lex.practice.raceconditions" />
       <recent name="com.lex.practice.threadlocal" />
       <recent name="com.lex.practice.sync" />
-      <recent name="com.lex.practice.virtual" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExecutorServiceVirtualThreadExample">
-    <configuration name="ExecutorServiceExample5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lex.practice.executorservice.ExecutorServiceExample5" />
+  <component name="RunManager" selected="Application.DeadlockExample">
+    <configuration name="DeadlockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lex.practice.deadlock.DeadlockExample" />
       <module name="juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lex.practice.executorservice.*" />
+          <option name="PATTERN" value="com.lex.practice.deadlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeadlockExample" />
         <item itemvalue="Application.ExecutorServiceVirtualThreadExample" />
         <item itemvalue="Application.ExecutorServiceExample8" />
         <item itemvalue="Application.ExecutorServiceExample7" />
         <item itemvalue="Application.ExecutorServiceExample6" />
-        <item itemvalue="Application.ExecutorServiceExample5" />
       </list>
     </recent_temporary>
   </component>
@@ -156,6 +161,7 @@
       <workItem from="1679228962007" duration="1598000" />
       <workItem from="1679234903570" duration="11000" />
       <workItem from="1679239762166" duration="17000" />
+      <workItem from="1680007128760" duration="3878000" />
     </task>
     <servers />
   </component>
