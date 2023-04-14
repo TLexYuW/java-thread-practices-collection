@@ -33,10 +33,10 @@ public class LSaleTicket {
 }
 
 class LTicket {
-	private int number = 100;
+	private int number = 50;
 
 	// create ReentrantLock
-	private final ReentrantLock lock = new ReentrantLock();
+	private final ReentrantLock lock = new ReentrantLock(true);
 	int k = 0;
 
 	public void sale() {
