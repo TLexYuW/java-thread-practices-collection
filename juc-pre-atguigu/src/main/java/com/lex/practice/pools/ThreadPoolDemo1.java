@@ -13,16 +13,21 @@ public class ThreadPoolDemo1 {
 		// One Pool 5 Threads
 		ExecutorService fixedThreadPool = Executors.newFixedThreadPool(5);
 		// One Pool Per Thread
-		ExecutorService singleThreadExecutor = Executors.newSingleThreadExecutor();
+//		ExecutorService singleThreadExecutor = Executors.newSingleThreadExecutor();
 
 		Long start = System.nanoTime();
 		try {
 			// 10 Tasks
-			for (int i = 1; i <= 1_000_000; i++) {
+			for (int i = 1; i <= 10_000_000; i++) {
 				// execute
-				fixedThreadPool.execute(() -> {
-					System.out.println("Thread name: " + Thread.currentThread().getName() + " working");
-				});
+				int finalI = i;
+				virtualThread(String.valueOf(finalI), ()->{
+					System.out.println("Thread name: " + Thread.currentThread().getName() + " working => " + finalI);
+				}).join();
+
+//				fixedThreadPool.submit(() -> {
+//					System.out.println("Thread name: " + Thread.currentThread().getName() + " working => " + finalI);
+//				});
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -36,5 +41,11 @@ public class ThreadPoolDemo1 {
 
 		Long end = System.nanoTime();
 		System.out.println("MILLISECONDS = " + TimeUnit.MILLISECONDS.convert((end - start), TimeUnit.NANOSECONDS));
+	}
+
+	private static Thread virtualThread(String name, Runnable runnable) {
+		return Thread.ofVirtual()
+				.name(name)
+				.start(runnable);
 	}
 }
