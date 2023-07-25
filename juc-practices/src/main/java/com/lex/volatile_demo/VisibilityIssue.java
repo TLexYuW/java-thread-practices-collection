@@ -6,8 +6,11 @@ package com.lex.volatile_demo;
  */
 public class VisibilityIssue {
 
-    static int num;
-//    static volatile int num;
+    // Without volatile key word,
+    // static int num;
+
+    // Main memory
+    static volatile int num;
 
     public static void main (String[] args) {
 
