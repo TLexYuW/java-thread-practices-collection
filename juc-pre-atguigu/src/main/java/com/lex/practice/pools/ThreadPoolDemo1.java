@@ -13,19 +13,33 @@ public class ThreadPoolDemo1 {
 		// One Pool 5 Threads
 		ExecutorService fixedThreadPool = Executors.newFixedThreadPool(5);
 		// One Pool Per Thread
-//		ExecutorService singleThreadExecutor = Executors.newSingleThreadExecutor();
+		ExecutorService singleThreadExecutor = Executors.newSingleThreadExecutor();
+		// One Pool expansion
+		ExecutorService newCachedThreadPool = Executors.newCachedThreadPool();
 
 		Long start = System.nanoTime();
 		try {
-			// 10 Tasks
-			for (int i = 1; i <= 10_000_000; i++) {
+			// x Tasks
+			for (int i = 1; i <= 1_000_000_000; i++) {
 				// execute
 				int finalI = i;
-				virtualThread(String.valueOf(finalI), ()->{
-					System.out.println("Thread name: " + Thread.currentThread().getName() + " working => " + finalI);
-				}).join();
 
-//				fixedThreadPool.submit(() -> {
+//				virtualThread(String.valueOf(finalI), ()->{
+//					System.out.println("Thread name: " + Thread.currentThread().getName() + " working => " + finalI);
+//				}).join();
+
+				// fixed
+				fixedThreadPool.execute(() -> {
+					System.out.println("Thread name: " + Thread.currentThread().getName() + " working => " + finalI);
+				});
+
+				// single
+//				singleThreadExecutor.execute(()->{
+//					System.out.println("Thread name: " + Thread.currentThread().getName() + " working => " + finalI);
+//				});
+
+				// expand
+//				newCachedThreadPool.execute(() -> {
 //					System.out.println("Thread name: " + Thread.currentThread().getName() + " working => " + finalI);
 //				});
 			}
@@ -33,9 +47,12 @@ public class ThreadPoolDemo1 {
 			e.printStackTrace();
 		} finally {
 			fixedThreadPool.shutdown();
+			singleThreadExecutor.shutdown();
+			newCachedThreadPool.shutdown();
 		}
 
-		while (!fixedThreadPool.isTerminated()){
+		while (!fixedThreadPool.isTerminated() || !singleThreadExecutor.isTerminated()
+				|| !newCachedThreadPool.isTerminated()) {
 
 		}
 
