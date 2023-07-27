@@ -1,4 +1,4 @@
-package com.lex.virtual_thread.collect_1;
+package com.lex.virtual_thread._01;
 
 import java.lang.management.ManagementFactory;
 import java.lang.management.ThreadInfo;

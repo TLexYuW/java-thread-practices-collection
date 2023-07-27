@@ -1,5 +1,6 @@
-package com.lex.virtual_thread.collect_1;
+package com.lex.virtual_thread._01;
 
+import java.time.Duration;
 import java.util.concurrent.Executors;
 import java.util.stream.IntStream;
 
@@ -19,10 +20,10 @@ public class Demo2 {
 
         long l = System.currentTimeMillis();
         try(var executor = Executors.newFixedThreadPool(10)) {
-            IntStream.range(0, 1_000).forEach(i -> {
+            IntStream.range(0, 1_000_001).forEach(i -> {
                 executor.submit(() -> {
-//                    Thread.sleep(Duration.ofSeconds(1));
-                    System.out.println(i);
+                    Thread.sleep(Duration.ofSeconds(1));
+                    System.out.println(Thread.currentThread().getName() + " working on => " + i);
                     return i;
                 });
             });

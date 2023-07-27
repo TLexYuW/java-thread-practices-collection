@@ -1,5 +1,6 @@
-package com.lex.virtual_thread.collect_1;
+package com.lex.virtual_thread._01;
 
+import java.time.Duration;
 import java.util.concurrent.Executors;
 import java.util.stream.IntStream;
 
@@ -8,7 +9,7 @@ import java.util.stream.IntStream;
  * @date : 25/07/2023
  */
 public class Demo3 {
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 //        ScheduledExecutorService scheduledExecutorService = Executors.newScheduledThreadPool(1);
 //        scheduledExecutorService.scheduleAtFixedRate(() -> {
 //            ThreadMXBean threadBean = ManagementFactory.getThreadMXBean();
@@ -16,16 +17,16 @@ public class Demo3 {
 //            System.out.println(threadInfo.length + " os thread");
 //        }, 10, 10, TimeUnit.MILLISECONDS);
 
-        long l = System.currentTimeMillis();
-        try(var executor = Executors.newVirtualThreadPerTaskExecutor()) {
-            IntStream.range(0, 1_000).forEach(i -> {
-                executor.submit(() -> {
-//                    Thread.sleep(Duration.ofSeconds(1));
-                    System.out.println(i);
-                    return i;
-                });
-            });
-        }
-        System.out.printf("elapsed time: %dms\n", System.currentTimeMillis() - l);
-    }
+		long l = System.currentTimeMillis();
+		try (var executor = Executors.newVirtualThreadPerTaskExecutor()) {
+			IntStream.range(0, 1_000_001).forEach(i -> {
+				executor.submit(() -> {
+					Thread.sleep(Duration.ofSeconds(1));
+					System.out.println("V-ThreadID = " + Thread.currentThread().threadId() + " working on => " + i);
+					return i;
+				});
+			});
+		}
+		System.out.printf("elapsed time: %dms\n", System.currentTimeMillis() - l);
+	}
 }

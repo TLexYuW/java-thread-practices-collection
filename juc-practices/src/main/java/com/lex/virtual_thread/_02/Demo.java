@@ -1,4 +1,4 @@
-package com.lex.virtual_thread.collect_2;
+package com.lex.virtual_thread._02;
 
 /**
  * @author : Lex Yu
