@@ -10,6 +10,11 @@ repositories {
 }
 
 dependencies {
+    // https://mvnrepository.com/artifact/net.jcip/jcip-annotations
+    compileOnly group: 'net.jcip', name: 'jcip-annotations', version: '1.0'
+    // https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api
+    compileOnly group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.1'
+
     testImplementation platform('org.junit:junit-bom:5.9.1')
     testImplementation 'org.junit.jupiter:junit-jupiter'
 }
