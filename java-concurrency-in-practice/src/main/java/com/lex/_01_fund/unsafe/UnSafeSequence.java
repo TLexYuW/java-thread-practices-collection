@@ -2,6 +2,8 @@ package com.lex._01_fund.unsafe;
 
 import net.jcip.annotations.NotThreadSafe;
 
+import java.util.concurrent.atomic.AtomicInteger;
+
 /**
  * @author : Lex Yu
  * @date : 2023/9/6

@@ -1,4 +1,4 @@
-package com.lex._02_thread_safety.stateless;
+package com.lex._02_thread_safety.stateless._2_2;
 
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
