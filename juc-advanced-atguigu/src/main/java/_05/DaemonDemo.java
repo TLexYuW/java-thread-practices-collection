@@ -13,7 +13,8 @@ public class DaemonDemo {
 					(Thread.currentThread().isDaemon() ? "Daemon Thread" : "User Thread"));
 			while (true){}
 		}, "t1");
-//		t1.setDaemon(true);
+
+		t1.setDaemon(true);
 		t1.start();
 
 		Thread.sleep(Duration.ofSeconds(3));

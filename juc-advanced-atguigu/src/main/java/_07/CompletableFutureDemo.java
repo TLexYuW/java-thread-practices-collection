@@ -35,41 +35,8 @@ class MyThread2 implements Callable<String> {
 	}
 }
 
-
-class MyThread3 implements RunnableFuture {
-	@Override
-	public void run() {
-
-	}
-
-	@Override
-	public boolean cancel(boolean mayInterruptIfRunning) {
-		return false;
-	}
-
-	@Override
-	public boolean isCancelled() {
-		return false;
-	}
-
-	@Override
-	public boolean isDone() {
-		return false;
-	}
-
-	@Override
-	public Object get() throws InterruptedException, ExecutionException {
-		return null;
-	}
-
-	@Override
-	public Object get(long timeout, TimeUnit unit) throws InterruptedException, ExecutionException, TimeoutException {
-		return null;
-	}
-}
-
-class MyThread4 extends FutureTask{
-	public MyThread4(Callable callable) {
+class MyThread3 extends FutureTask{
+	public MyThread3(Callable callable) {
 		super(callable);
 	}
 }
