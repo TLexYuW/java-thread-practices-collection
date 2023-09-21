@@ -7,16 +7,13 @@ import com.lex.dto.Employee;
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.Executor;
-import java.util.concurrent.Executors;
+import java.util.concurrent.*;
 
 /**
  * @author : Lex Yu
  */
 public class RunAsyncDemo {
-	public Void saveEmployees(File jsonFile) throws ExecutionException, InterruptedException {
+	public Void saveEmployees(File jsonFile) throws ExecutionException, InterruptedException, TimeoutException {
 		ObjectMapper mapper = new ObjectMapper();
 		CompletableFuture<Void> runAsyncFuture = CompletableFuture.runAsync(() -> {
 			try {
@@ -32,10 +29,12 @@ public class RunAsyncDemo {
 			}
 		});
 
-		return runAsyncFuture.get();
+//		return runAsyncFuture.toCompletableFuture();
+//		return runAsyncFuture.get();
+		return runAsyncFuture.join();
 	}
 
-	public Void saveEmployeesWithCustomExecutor(File jsonFile) throws ExecutionException, InterruptedException {
+	public Void saveEmployeesWithCustomExecutor(File jsonFile) throws ExecutionException, InterruptedException, TimeoutException {
 		ObjectMapper mapper = new ObjectMapper();
 		Executor executor = Executors.newFixedThreadPool(5);
 		CompletableFuture<Void> runAsyncFuture = CompletableFuture.runAsync(() -> {
@@ -51,11 +50,12 @@ public class RunAsyncDemo {
 				throw new RuntimeException(e);
 			}
 		}, executor);
-
-		return runAsyncFuture.get();
+//		return runAsyncFuture.toCompletableFuture();
+//		return runAsyncFuture.get();
+		return runAsyncFuture.join();
 	}
 
-	public static void main(String[] args) throws ExecutionException, InterruptedException {
+	public static void main(String[] args) throws ExecutionException, InterruptedException, TimeoutException {
 		RunAsyncDemo runAsyncDemo = new RunAsyncDemo();
 
 		runAsyncDemo.saveEmployees(new File("juc-practices/emp.json"));

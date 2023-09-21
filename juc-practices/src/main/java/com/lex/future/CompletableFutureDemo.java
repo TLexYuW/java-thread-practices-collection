@@ -22,9 +22,9 @@ public class CompletableFutureDemo {
 		List<Integer> integers = future.get();
 		System.out.println(integers);
 
-		CompletableFuture<String> completableFuture = new CompletableFuture<>();
-		completableFuture.get();
-		completableFuture.complete("return some data...");
+//		CompletableFuture<String> completableFuture = new CompletableFuture<>();
+//		completableFuture.get();
+//		completableFuture.complete("return some data...");
 
 		service.shutdown();
 	}
