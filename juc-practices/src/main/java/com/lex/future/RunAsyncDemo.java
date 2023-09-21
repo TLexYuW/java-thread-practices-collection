@@ -36,7 +36,7 @@ public class RunAsyncDemo {
 
 	public Void saveEmployeesWithCustomExecutor(File jsonFile) throws ExecutionException, InterruptedException, TimeoutException {
 		ObjectMapper mapper = new ObjectMapper();
-		Executor executor = Executors.newFixedThreadPool(5);
+		ExecutorService executor = Executors.newFixedThreadPool(5);
 		CompletableFuture<Void> runAsyncFuture = CompletableFuture.runAsync(() -> {
 			try {
 				List<Employee> employees = mapper.readValue(jsonFile, new TypeReference<List<Employee>>() {
@@ -52,6 +52,7 @@ public class RunAsyncDemo {
 		}, executor);
 //		return runAsyncFuture.toCompletableFuture();
 //		return runAsyncFuture.get();
+		executor.shutdown();
 		return runAsyncFuture.join();
 	}
 

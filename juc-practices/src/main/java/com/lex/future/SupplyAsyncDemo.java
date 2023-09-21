@@ -4,8 +4,7 @@ import com.lex.database.EmployeeDatabase;
 import com.lex.dto.Employee;
 
 import java.util.List;
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.ExecutionException;
+import java.util.concurrent.*;
 
 /**
  * @author : Lex Yu
@@ -13,11 +12,14 @@ import java.util.concurrent.ExecutionException;
 public class SupplyAsyncDemo {
 
     public List<Employee> getEmployees() throws ExecutionException, InterruptedException {
+        ExecutorService executor = Executors.newCachedThreadPool();
         CompletableFuture<List<Employee>> listCompletableFuture =
                 CompletableFuture.supplyAsync(() -> {
                     System.out.println("Executed by: " + Thread.currentThread().getName());
                     return EmployeeDatabase.fetchEmployees();
-                });
+                }, executor);
+
+        executor.shutdown();
         return listCompletableFuture.get();
     }
 
