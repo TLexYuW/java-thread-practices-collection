@@ -14,7 +14,7 @@ public class Main {
 			}
 		}, "thread");
 		// Set Daemon
-		thread.setDaemon(true);
+//		thread.setDaemon(true);
 		thread.start();
 
 		System.out.println(Thread.currentThread().getName() + " over");
