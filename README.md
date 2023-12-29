@@ -5,6 +5,7 @@
   - https://youtu.be/ddUSe3A9MMg
   - https://youtu.be/GJ5Tx43q6KM?si=K3LfdAfoO-eawSIp
   - https://youtu.be/oFRtBuRviHM?si=51uzYI7CcJbrSF-z
+  - [Using the ForkJoin framework](https://www.youtube.com/live/whHaNMmIOgI?si=_9Hn6xLXJhIdlOSE)
 - [juc-atguigu](juc-atguigu)
   - https://www.youtube.com/playlist?list=PLmOn9nNkQxJHezsejdFelbZQ-QLgsIfdn
 
