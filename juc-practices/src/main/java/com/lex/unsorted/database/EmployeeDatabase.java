@@ -15,7 +15,7 @@ public class EmployeeDatabase {
     public static List<Employee> fetchEmployees() {
         ObjectMapper mapper = new ObjectMapper();
         try {
-            List<Employee> employees = mapper.readValue(new File("juc-practices/emp.json"), new TypeReference<List<Employee>>() {
+            List<Employee> employees = mapper.readValue(new File("juc-practices/emp.json"), new TypeReference<>() {
             });
             System.out.println("Size = " + employees.size());
             return employees;
