@@ -1,15 +1,13 @@
-package _24.thenapply;
+package _24.thenapply._1;
 
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.TimeUnit;
-import java.util.concurrent.TimeoutException;
+import java.util.concurrent.*;
 
 /**
  * @author : Lex Yu
  */
 public class CompletableFutureAPIDemo {
     public static void main(String[] args) throws ExecutionException, InterruptedException, TimeoutException {
+
         CompletableFuture<Integer> future = CompletableFuture.supplyAsync(() -> {
             System.out.println("Step. 1");
             try {
@@ -32,11 +30,19 @@ public class CompletableFutureAPIDemo {
             }
         }).exceptionally(err -> {
             System.out.println("Step. 5");
-            err.printStackTrace();
             System.out.println(err.getMessage());
             return null;
         });
 
+        System.out.println(Thread.currentThread().getName() + " - Main Thread");
+
+        try {
+            TimeUnit.SECONDS.sleep(2);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+
         System.out.println(future.join());
+
     }
 }

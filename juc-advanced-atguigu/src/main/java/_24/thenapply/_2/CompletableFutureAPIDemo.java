@@ -1,4 +1,4 @@
-package _24.handle;
+package _24.thenapply._2;
 
 import java.util.concurrent.*;
 
@@ -7,10 +7,11 @@ import java.util.concurrent.*;
  */
 public class CompletableFutureAPIDemo {
     public static void main(String[] args) throws ExecutionException, InterruptedException, TimeoutException {
+
         ExecutorService threadPool = Executors.newFixedThreadPool(3);
 
         CompletableFuture<Integer> future = CompletableFuture.supplyAsync(() -> {
-            System.out.println("Step. 1 : 111");
+            System.out.println("Step. 1");
             try {
                 TimeUnit.SECONDS.sleep(1);
             } catch (InterruptedException ex) {
@@ -18,22 +19,20 @@ public class CompletableFutureAPIDemo {
             }
 
             return 10;
-        }, threadPool).handle((i, err) -> {
-            int x = 2 / 0;
-            System.out.println("Step. 2 : 222");
+        },threadPool).thenApply(i -> {
+            System.out.println("Step. 2 : " + i);
             return i * 2;
-        }).handle((i, err) -> {
-            System.out.println("Step. 3 : 333");
+        }).thenApply(i -> {
+            System.out.println("Step. 3 : " + i);
             return i * 3;
         }).whenComplete((val, err) -> {
-            System.out.println("Step. 4 : 444");
+            System.out.println("Step. 4 : " + val);
             if (err == null) {
                 System.out.println("After Computed : " + val);
             }
         }).exceptionally(err -> {
             System.out.println("Step. 5");
             System.out.println(err.getMessage());
-            err.printStackTrace();
             return null;
         });
 
