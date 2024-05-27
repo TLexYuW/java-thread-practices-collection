@@ -1,4 +1,4 @@
-package _23.getnow;
+package _24.handle;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
@@ -26,6 +26,6 @@ public class CompletableFutureAPIDemo {
 			ex.printStackTrace();
 		}
 
-		System.out.println(future.getNow("??????"));
+		System.out.println(future.complete("??????") + "\t" + future.join());
 	}
 }
