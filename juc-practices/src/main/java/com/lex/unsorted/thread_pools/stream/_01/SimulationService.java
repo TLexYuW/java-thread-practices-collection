@@ -14,7 +14,7 @@ public class SimulationService {
     public void simulateProcessing(List<String> sCodes, Map<String, String> cCodes,
                                    List<List<LocalDate>> holidayGroups, List<List<LocalDate>> festivalGroups) throws InterruptedException {
         for (String sCode : sCodes) {
-            executor.submit(() -> processCode2(sCode, cCodes, holidayGroups, festivalGroups));
+            executor.submit(() -> processCode(sCode, cCodes, holidayGroups, festivalGroups));
         }
         executor.shutdown();
         try {
