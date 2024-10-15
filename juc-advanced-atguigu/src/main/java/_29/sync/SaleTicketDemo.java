@@ -6,9 +6,10 @@ package _29.sync;
 public class SaleTicketDemo {
 
 	public static void main(String[] args) {
-
+		
 	}
 
+	// pessimistic
 	public synchronized void sales() {
 
 	}
