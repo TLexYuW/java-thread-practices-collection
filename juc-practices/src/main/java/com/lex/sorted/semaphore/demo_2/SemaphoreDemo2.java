@@ -1,4 +1,4 @@
-package com.lex.sorted.semaphore;
+package com.lex.sorted.semaphore.demo_2;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -8,7 +8,7 @@ import java.util.stream.IntStream;
 /**
  * @author : LEX_YU
  */
-public class Semaphore {
+public class SemaphoreDemo2 {
 	public static void main(String[] args) {
 		java.util.concurrent.Semaphore semaphore = new java.util.concurrent.Semaphore(5);
 		ExecutorService executorService = Executors.newFixedThreadPool(10);
